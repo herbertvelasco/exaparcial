@@ -1,4 +1,3 @@
-import 'package:exaparcial/home_page1.dart';
 import 'package:exaparcial/pages/home.pages.dart';
 import 'package:flutter/material.dart';
 
