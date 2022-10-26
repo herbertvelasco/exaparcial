@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             SizedBox(
               height: 150.0,
+              width: 120,
             ),
             children: [
               CircleAvatar(
@@ -24,6 +25,7 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 height: 40.0,
               ),
+              Text("Email Address")
             ],
           ),
         ),
