@@ -1,3 +1,4 @@
+import 'package:exaparcial/pages/dato.pages.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -73,7 +74,9 @@ class HomePage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFF001d3d).withOpacity(0.8),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  dato.pages();
+                },
                 icon: Icon(Icons.done),
                 label: Text(
                   'Login',
