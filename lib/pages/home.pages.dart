@@ -1,7 +1,4 @@
 import 'package:exaparcial/pages/dato.pages.dart';
-
-//import 'dato.pages.dart';
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
