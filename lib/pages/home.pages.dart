@@ -38,10 +38,6 @@ class HomePage extends StatelessWidget {
                   Icons.mail,
                   color: Colors.indigo,
                 ),
-                trailing: Icon(
-                  Icons.mail,
-                  color: Colors.indigo,
-                ),
               ),
             ),
             Card(
@@ -61,34 +57,26 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-            Text(""),
-            Row(
-              children: [
-                SizedBox(
-                  width: 80.0,
+            SizedBox(
+              height: 20.0,
+            ),
+            SizedBox(
+              width: 450.0,
+              height: 50.0,
+              child: ElevatedButton.icon(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Color(0xFF001d3d).withOpacity(0.8),
                 ),
-                Icon(
-                  Icons.facebook,
-                  color: Colors.white,
-                  size: 40.0,
+                onPressed: () {},
+                icon: Icon(Icons.play_arrow),
+                label: Text(
+                  'Login',
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-                SizedBox(
-                  width: 70.0,
-                ),
-                Icon(
-                  Icons.whatsapp,
-                  color: Colors.white,
-                  size: 40.0,
-                ),
-                SizedBox(
-                  width: 70.0,
-                ),
-                Icon(
-                  Icons.telegram,
-                  color: Colors.white,
-                  size: 40.0,
-                ),
-              ],
+              ),
             ),
           ],
         ),
