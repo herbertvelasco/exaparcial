@@ -32,14 +32,14 @@ class HomePage extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               elevation: 10.0,
               child: ListTile(
-                title: Text("+51 456342147"),
-                subtitle: Text("Fono"),
+                title: Text("Email Address"),
+                subtitle: Text("Username@gmail.com"),
                 leading: Icon(
-                  Icons.phone,
+                  Icons.mail,
                   color: Colors.indigo,
                 ),
                 trailing: Icon(
-                  Icons.check_circle_outline,
+                  Icons.mail,
                   color: Colors.indigo,
                 ),
               ),
@@ -49,8 +49,8 @@ class HomePage extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               elevation: 10.0,
               child: ListTile(
-                title: Text("fiorefatia@gmail.com"),
-                subtitle: Text("Correo electronico"),
+                title: Text("Password"),
+                subtitle: Text("***********"),
                 leading: Icon(
                   Icons.mail,
                   color: Colors.indigo,
